@@ -1,6 +1,7 @@
 rvm:
   - 2.2.5
   - 2.3.1
+  - ruby-head
 gemfile:
   - Gemfile_ar_41
   - Gemfile_ar_42
