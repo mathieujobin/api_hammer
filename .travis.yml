@@ -1,9 +1,8 @@
 rvm:
-  - 2.0.0
-  - 2.2.4
+  - 2.2.5
+  - 2.3.1
 gemfile:
-  - Gemfile_ar_3
-  - Gemfile_ar_40
   - Gemfile_ar_41
   - Gemfile_ar_42
+  - Gemfile_ar_50
 script: rake test

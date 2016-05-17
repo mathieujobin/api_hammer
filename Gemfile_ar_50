@@ -1,0 +1,8 @@
+source 'https://rubygems.org'
+
+gemspec
+
+gem 'byebug'
+gem 'wwtd'
+
+gem 'activerecord', '~> 5.0.0.rc1'
