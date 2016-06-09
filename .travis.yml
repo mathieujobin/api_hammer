@@ -1,4 +1,15 @@
 rvm:
-  - 2.0.0-p353
+  - 2.0.0
   - 2.2.4
+  - 2.3.1
+gemfile:
+  - Gemfile_as_3
+  - Gemfile_as_40
+  - Gemfile_as_41
+  - Gemfile_as_42
+  - Gemfile_as_50
+matrix:
+  exclude:
+    - rvm: 2.0.0
+      gemfile: Gemfile_as_50
 script: rake test

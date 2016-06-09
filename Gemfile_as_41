@@ -1,0 +1,9 @@
+source 'https://rubygems.org'
+
+gemspec
+
+gem 'byebug'
+gem 'wwtd'
+
+gem 'activesupport', '~> 4.1.14'
+gem 'rack', '~> 1.4'
